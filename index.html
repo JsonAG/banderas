@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto banderas</title>
+    <link rel="stylesheet" href="css/style-ejercicio1-resuelto.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Proyecto banderas</h1>
+    
+        <h2>Jason Emanuel Arizandieta Guerrero</h2>
+            <fieldset>
+            <legend>Seleccione bandera a visualizar</legend>
+            <p>
+                Seleccionar bandera:
+                <select name="banderas" id="banderas" onchange="mostrarBandera()">  
+                    <option value="SEL">Selecciona</option>                 
+                    <option value="GT">Guatemala</option>
+                    <option value="IN">India</option>
+                    <option value="PB">Paises Bajos</option>
+                    <option value="SUE">Suecia</option>
+                    <option value="SUI">Suiza</option>
+                </select>
+            </p>
+            </fieldset>
+
+        <article id="ejercicio1">
+        <h2>Ejercicio 1: Guatemala</h2>
+        <div class="contenedor">
+            <div class="parte1"></div>
+            <div class="parte3"></div>
+            <div class="parte2"><img src="img/guatemala.png" alt="Escudo Guatemala"></div>
+        </div>
+         </article>
+ 
+    <article id="ejercicio2">
+        <h2>Ejercicio 2: India</h2>
+        <div class="contenedor">
+            <div class="parte1"></div>
+            <div class="parte2"></div>
+            <div class="parte3"></div>
+            <div class="parte6"><img src="img/india.png" alt="Emblema India"></div>
+            <div class="parte7"></div>
+        </div>
+    </article>
+
+    <article id="ejercicio3">
+        <h2>Ejercicio 3: Paises Bajos</h2>
+        <div class="contenedor">
+            <div id="bajos">
+                <div class="parte1"></div>
+                <div class="parte2"></div>
+                <div class="parte3"></div>
+            </div>
+        </div>
+    </article>
+
+    <article id="ejercicio4">
+        <h2>Ejercicio 4: Suecia</h2>
+        <div class="contenedor">
+            <div id="superior">
+                <div class="parte1"></div>
+                <div class="parte2"></div>
+                <div class="parte3"></div>
+            </div>
+            <div class="parte4"></div>
+            <div id="inferior">
+                <div class="parte5"></div>
+                <div class="parte6"></div>
+                <div class="parte7"></div>
+            </div>
+        </div>
+    </article>
+
+    <article id="ejercicio5">
+        <h2>Ejercicio 5: Suiza</h2>
+        <div class="contenedor">
+            <div class="parte1"></div>
+            <div class="parte2"></div>
+            <div class="parte3"></div>
+        </div>
+    </article>
+    
+</body>
+
+</html>
